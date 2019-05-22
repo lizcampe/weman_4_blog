@@ -1,0 +1,62 @@
+.top {
+	 margin-left: auto;
+	 margin-right: auto;
+	 background-color: #3E8CE9;
+	 box-shadow: rgba(0,0, 0,0.5) 2px, 2px, 2px, 2px;
+	 padding: 15px ;
+
+	}
+
+
+.bloque {
+		border: solid #3E8CE9;
+		margin-left: auto;
+	    margin-right: auto;
+	    background-color: #ECEBE6;
+	    box-shadow: rgba(0,0, 0,0.5);
+	    
+
+}
+
+
+.grand {
+	 overflow: auto;
+
+}
+.caja {
+		align-content: right;
+		width: 950px;
+		height:auto;
+		background-color: black;
+
+}
+
+.caja_imagen {
+		 border: solid blue;
+		 float: right;
+		 background-color: #999997;
+		 width: 386px;
+		 height: 133px;
+			}
+
+#id {
+
+}
+
+#cuerpo{
+	background-color: ##ECEBE6; color: #3E8CE9; padding: 40px;
+	width: 1200px;
+	height: 113px;
+}
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: rgba(0,0, 0,0.5) 2px, 2px, 2px, 2px;
+   
+}
+
+
+
+

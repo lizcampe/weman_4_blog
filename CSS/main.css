@@ -7,16 +7,19 @@
 
 	}
 
+.all {
+	font-family: status-bar;
+} 
 
 .bloque {
+		font-family: status-bar;
 		border: solid #3E8CE9;
 		margin-left: auto;
 	    margin-right: auto;
 	    background-color: #ECEBE6;
 	    box-shadow: rgba(0,0, 0,0.5);
 	    
-
-}
+	    }
 
 
 .grand {
@@ -36,7 +39,10 @@
 		 float: right;
 		 background-color: #999997;
 		 width: 386px;
-		 height: 133px;
+		 height: 194px;
+		 max-width: 80%
+		 text-align: center;
+		 text color: black;
 			}
 
 #id {
@@ -44,10 +50,12 @@
 }
 
 #cuerpo{
-	background-color: ##ECEBE6; color: #3E8CE9; padding: 40px;
+	font-family: sans-serif;
+	background-color: ##ECEBE6; color: #3E8CE9; padding: 1px;
 	width: 1200px;
-	height: 113px;
+	height: 150px;
 }
+
 .container{
     
     margin-left: auto;
@@ -59,4 +67,22 @@
 
 
 
+#negrita {
+	font: status-bar;
+	font-weight: bold;
+	font-size: 20px;
 
+}
+
+
+.table {
+	border-collapse: all;
+    border-spacing: 1px;
+}
+}
+
+#small {
+	font-size: 15px;
+	text-align: left;
+
+}

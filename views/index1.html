@@ -17,18 +17,36 @@
 		 <img src="close.png" align="right">
 			
 		</div> <br>
+
 			
 		<div class= "bloque" id="id" 
 	    > 
 	   <img src= "cat.PNG" width="70" height="70" style="margin-left:10px">
 	   <img src= "name.PNG" style="margin-left:10px">
-	   <img src= "user1.png" width="50" height="50" style="margin-left:1283px"> 
+	   <img src= "share.png" width="50" height="50" style="margin-right:956px">
+	   <img src= "user1.png" width="50" height="50" style="margin-left:9px"> 
 
 	</div> <br>
 
 	<section class="grand"> 
 	
-	
+	<SCRIPT  class= "bloque" language=JavaScript > 
+	function go() {
+if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='CORREO'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+   } 
+</SCRIPT> 
+<FORM name=form action="TU_PAGINA_WEB.HTML">
+
+<P>Usuario:    <INPUT type=text name=login> 
+<P>Contraseña: <INPUT type=password name=password> 
+<INPUT onclick=go() type=button value=Acceder>
+
+</FORM> 
 		<table  class="bloque" class= "tabla" id ="cuerpo"   >
 			
 			<td id= "negrita"> <h3> Entrada de noticias </h3></td>

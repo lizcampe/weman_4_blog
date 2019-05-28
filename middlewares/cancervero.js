@@ -17,6 +17,10 @@ const v = (usr, pwd, resp) => {
 	};
 	let qry = "select id, nombre from usuario where email = '"+usr+"' and passwd = password('"+pwd+"');";
 	console.log("Consulta de validación: " + qry);
+
+
+
+
 	//console.log("Entra a validar usuario...");
 	dbcon.query(qry, (err, res, campos) => {
 		if (err) {

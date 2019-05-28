@@ -9,6 +9,7 @@
 
 .all {
 	font-family: status-bar;
+	font color: #3E8CE9;
 } 
 
 .bloque {
@@ -51,16 +52,32 @@
 		 text color: black;
 			}
 
-#id {
+#ideal {
+		 border: solid blue;
+		 float: right;
+		 background-color: #999997;
+		 width: 386px;
+		 height: 194px;
+		 max-width: 80%
+		 text color: blue;
+			}
 
+#noticia {
+		font-family: status-bar;
+		background-color: #ECEBE6;
+	    box-shadow: rgba(0,0, 0,0.5);
+	    align-items: center;
+	    justify-content: space-between;
 }
 
-#cuerpo{
+.cuerpo {
 	font-family: sans-serif;
 	background-color: ##ECEBE6; color: #3E8CE9; padding: 1px;
 	width: 1200px;
 	height: 150px;
 }
+
+
 
 .container{
     
